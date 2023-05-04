@@ -1,0 +1,8 @@
+.statistic_area {
+  padding-bottom: 2rem;
+}
+.statistic_area .statisticbar_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=Statistic.css.map */

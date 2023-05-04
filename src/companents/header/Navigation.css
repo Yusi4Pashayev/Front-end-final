@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  padding: 1rem 18vw;
+}
+
+.nShow {
+  display: none;
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .menu .menu_nav {
+  width: 65%;
+}
+nav .menu .menu_nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .menu .menu_nav ul li {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+nav .menu .menu_nav ul li a {
+  color: #000000;
+}
+nav .menu .menu_tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+nav .menu .menu_tools .call {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+}
+nav .menu .menu_tools .call .phone {
+  color: #ff6400;
+}
+nav .menu .menu_tools .call a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+nav .menu .menu_tools .internet_banking {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 22px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+nav .menu .menu_tools .internet_banking .arrow {
+  color: #ff6400;
+  font-size: 22px;
+}
+nav .menu .menu_tools .internet_banking span {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 6px;
+}/*# sourceMappingURL=Navigation.css.map */

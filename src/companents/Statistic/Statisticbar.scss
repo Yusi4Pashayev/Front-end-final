@@ -1,0 +1,41 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.statistic_bar{
+    width: 24%;
+    background-color: $bg_card_color;
+    height: 350px;
+    border-radius: 10px;
+    padding: 3rem 0;
+    h1{
+        font-size: $font_size_Large;
+        margin-bottom: 2rem;
+    }
+    .statistic_bar-value{
+        color: $font_color3;
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+    }
+
+    .statistic_bar-value-text{
+        font-size: $font_size_Medium;
+        color: $font_color1;
+        margin-bottom: 3rem;
+    }
+   
+}

@@ -1,0 +1,31 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+.exchange {
+  .exchange__area {
+    padding: 5%;
+    border-radius: 15px;
+    background-color: $bg_card_color;
+    .exchange--title {
+        text-align: start;
+        color: $font_color3;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+
+    .exchange__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+  }
+}

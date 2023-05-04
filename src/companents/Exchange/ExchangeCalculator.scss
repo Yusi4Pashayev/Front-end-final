@@ -1,0 +1,107 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$font_color4: #d6d9db;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+.exchange_calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: $box_shadow;
+  .calc--text {
+    width: 25%;
+    text-align: start;
+    h1 {
+      font-size: $font_size_Large;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    p {
+      font-weight: 500;
+      font-size: $font_size_Small;
+      color: $font_color4;
+      margin-bottom: 10px;
+    }
+  }
+  .calc--inputs {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .input_value {
+      width: 45%;
+      position: relative;
+      input {
+        width: 100%;
+        outline: transparent;
+        padding: 20px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        appearance: none;
+        border: 1px solid $font_color4;
+      }
+
+      select {
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        transform: translateY(-50%);
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        padding: 8px 40px 8px 8px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        option {
+          padding: 10px 0;
+        }
+      }
+    }
+    .output_value {
+      width: 45%;
+      position: relative;
+      input {
+        width: 100%;
+        outline: transparent;
+        padding: 20px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        appearance: none;
+        border: 1px solid $font_color4;
+      }
+
+      select {
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        transform: translateY(-50%);
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        padding: 8px 40px 8px 8px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        option {
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+}

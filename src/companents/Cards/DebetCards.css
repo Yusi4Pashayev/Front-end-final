@@ -1,0 +1,60 @@
+.cards__debet > h1,
+.cards__other > h1 {
+  text-align: start;
+  font-weight: 700;
+  color: #ff6400;
+  margin-bottom: 1rem;
+}
+.cards__debet .debetcards__area,
+.cards__debet .othercards__area,
+.cards__other .debetcards__area,
+.cards__other .othercards__area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.cards__debet .debetcards__area .debet__card,
+.cards__debet .othercards__area .debet__card,
+.cards__other .debetcards__area .debet__card,
+.cards__other .othercards__area .debet__card {
+  padding: 4rem;
+  width: 48%;
+  background-color: #fafafa;
+  border-radius: 15px;
+  text-align: start;
+}
+.cards__debet .debetcards__area .debet__card .debet__card--img,
+.cards__debet .othercards__area .debet__card .debet__card--img,
+.cards__other .debetcards__area .debet__card .debet__card--img,
+.cards__other .othercards__area .debet__card .debet__card--img {
+  width: 70%;
+  margin-bottom: 2rem;
+  background-color: transparent !important;
+}
+.cards__debet .debetcards__area .debet__card .debet__card--img img,
+.cards__debet .othercards__area .debet__card .debet__card--img img,
+.cards__other .debetcards__area .debet__card .debet__card--img img,
+.cards__other .othercards__area .debet__card .debet__card--img img {
+  width: 100%;
+  box-shadow: -20px 20px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.cards__debet .debetcards__area .debet__card h1,
+.cards__debet .othercards__area .debet__card h1,
+.cards__other .debetcards__area .debet__card h1,
+.cards__other .othercards__area .debet__card h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.cards__debet .debetcards__area .debet__card p,
+.cards__debet .othercards__area .debet__card p,
+.cards__other .debetcards__area .debet__card p,
+.cards__other .othercards__area .debet__card p {
+  height: 5rem;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}/*# sourceMappingURL=DebetCards.css.map */

@@ -1,0 +1,91 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+.cards__ucard {
+  text-align: start;
+  justify-content: space-between;
+  align-items: center;
+
+  & > h1 {
+    text-align: start;
+    font-weight: 700;
+    color: $font_color3;
+    margin-bottom: 1rem;
+  }
+  .ucard__area {
+    margin-bottom: 1rem;
+    .ucard-box {
+      padding: 4rem;
+      background-color: $bg_card_color;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-between;
+
+      .cards__box--img {
+        width: 30%;
+        margin: 2rem 0;
+        img {
+          width: 100%;
+          box-shadow: -20px 20px 20px 0px rgb(0 0 0 / 20%);
+          border-radius: 15px;
+        }
+      }
+      .cards__box--content {
+        width: 62%;
+        padding: 20px 50px;
+        h1 {
+          font-size: 28px;
+          font-weight: 700;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 300;
+          margin-bottom: 1.5rem;
+        }
+        .cards__box--contentbottom {
+          margin-bottom: 2rem;
+          display: flex;
+          justify-content: space-between;
+          div {
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+          }
+          .cartIcon {
+            font-size: 45px;
+            color: #ff6400;
+            text-align: center;
+            margin-right: 10px;
+          }
+          .HourglassIcon {
+            font-size: 45px;
+            color: #ff6400;
+            margin-right: 10px;
+          }
+          .arrowRightLeft {
+            font-size: 45px;
+            color: #ff6400;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.cards__debet {
+  text-align: start;
+  & > h1 {
+    text-align: start;
+    font-weight: 700;
+    color: $font_color3;
+  }
+}

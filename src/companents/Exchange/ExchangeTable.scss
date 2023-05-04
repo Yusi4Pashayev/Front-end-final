@@ -1,0 +1,42 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$font_color4: #d6d9db;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+.exchange__table {
+  width: 30%;
+  table {
+    width: 80%;
+    caption {
+      text-align: start;
+      h1 {
+        color: $font_color2;
+        margin-bottom: 8px;
+        font-size: $font_size_Large;
+      }
+      p {
+        color: $font_color4;
+        margin-bottom: 2rem;
+        font-size: $font_size_Small;
+      }
+    }
+
+    thead {
+      th {
+        color: $font_color4;
+        font-size: $font_size_Small;
+        font-weight: 500;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $font_color4;
+        text-align: start;
+        width: 33%;
+      }
+    }
+  }
+}

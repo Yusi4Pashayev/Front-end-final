@@ -1,0 +1,60 @@
+.head__title-cart {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 15px;
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+}
+.head__title-cart ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.head__title-cart ul .title-cart-img {
+  width: 20%;
+}
+.head__title-cart ul .title-cart-name {
+  width: 40%;
+}
+.head__title-cart ul .title-cart-count {
+  width: 10%;
+}
+.head__title-cart ul .title-cart-button {
+  width: 15%;
+}
+
+.chart__element {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 15px;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart__element .chart__element--img {
+  width: 20%;
+}
+.chart__element .chart__element--img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.chart__element .chart_title {
+  width: 40%;
+}
+.chart__element .chart__element--count {
+  width: 10%;
+}
+.chart__element .delete_chart {
+  width: 15%;
+}
+.chart__element .delete_chart button {
+  padding: 14px 24px;
+  background-color: red;
+  border-radius: 10px;
+  color: #fafafa;
+  border: 1px solid red;
+  cursor: pointer;
+}/*# sourceMappingURL=ChartElement.css.map */

@@ -1,0 +1,34 @@
+.app_bar {
+  background-color: #fafafa;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.app_bar .img {
+  width: 48%;
+  position: relative;
+}
+.app_bar .img img {
+  position: absolute;
+  width: 100%;
+  bottom: -12rem;
+  left: 0;
+}
+.app_bar .appbar_content {
+  text-align: start;
+  width: 48%;
+  padding: 10% 4% 10% 0;
+}
+.app_bar .appbar_content h1 {
+  color: #ff6400;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.app_bar .appbar_content p {
+  color: #323232;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}/*# sourceMappingURL=Appbar.css.map */

@@ -1,0 +1,44 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+.app_bar {
+  background-color: $bg_card_color;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  .img {
+    width: 48%;
+    position: relative;
+    img {
+      position: absolute;
+      width: 100%;
+      bottom: -12rem;
+      left: 0;
+    }
+  }
+  .appbar_content {
+    text-align: start;
+    width: 48%;
+    padding: 10% 4% 10% 0;
+    h1 {
+      color: $font_color3;
+      font-weight: 800;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      color: $font_color1;
+      font-size: $font_size_Medium;
+      margin-bottom: 3rem;
+    }
+  }
+}

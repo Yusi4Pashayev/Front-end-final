@@ -1,0 +1,45 @@
+.app_bar_ubank {
+  background-color: #fafafa;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 6%;
+}
+.app_bar_ubank .img {
+  width: 48%;
+  position: relative;
+}
+.app_bar_ubank .img img {
+  position: absolute;
+  width: 100%;
+  bottom: -13rem;
+  left: 0;
+}
+.app_bar_ubank .appbar_content {
+  text-align: start;
+  width: 48%;
+}
+.app_bar_ubank .appbar_content h1 {
+  color: #ff6400;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.app_bar_ubank .appbar_content p {
+  color: #323232;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+.app_bar_ubank .appbar_content .appbar_mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 2rem;
+}
+.app_bar_ubank .appbar_content .appbar_mobile img {
+  cursor: pointer;
+}/*# sourceMappingURL=Appbar_Ubank.css.map */

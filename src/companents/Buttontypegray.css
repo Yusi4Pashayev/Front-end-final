@@ -1,0 +1,10 @@
+.gray_button{
+    padding: 14px 28px;
+    background-color: rgba(190, 190, 190, 0);
+    border-radius: 30px;
+    color: #969696;
+    font-weight: 700;
+    margin-left: 10px;
+    border: 1px solid #969696;
+    cursor: pointer;
+}

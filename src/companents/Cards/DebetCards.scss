@@ -1,0 +1,54 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+
+.cards__debet,
+.cards__other {
+  & > h1 {
+    text-align: start;
+    font-weight: 700;
+    color: $font_color3;
+    margin-bottom: 1rem;
+  }
+  .debetcards__area,
+  .othercards__area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .debet__card {
+      padding: 4rem;
+      width: 48%;
+      background-color: $bg_card_color;
+      border-radius: 15px;
+      text-align: start;
+
+      .debet__card--img {
+        width: 70%;
+        margin-bottom: 2rem;
+        background-color: transparent !important;
+        img {
+          width: 100%;
+          box-shadow: -20px 20px 20px 0px rgb(0 0 0 / 20%);
+          border-radius: 15px;
+        }
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      p {
+        height: 5rem;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.data_table{
+    
+}
+.data_table td{
+padding: 10px 0;
+font-weight: 600;
+color: black;
+text-align: start;
+}

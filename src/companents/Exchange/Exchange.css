@@ -1,0 +1,17 @@
+.exchange .exchange__area {
+  padding: 5%;
+  border-radius: 15px;
+  background-color: #fafafa;
+}
+.exchange .exchange__area .exchange--title {
+  text-align: start;
+  color: #ff6400;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.exchange .exchange__area .exchange__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}/*# sourceMappingURL=Exchange.css.map */

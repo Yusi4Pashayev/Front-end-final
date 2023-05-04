@@ -1,0 +1,17 @@
+.footer__menu_list h1 {
+  margin-bottom: 1rem;
+  font-size: 15px;
+  font: 500;
+  color: #323232;
+  cursor: pointer;
+}
+.footer__menu_list ul {
+  list-style: none;
+}
+.footer__menu_list ul li {
+  margin-bottom: 1rem;
+  color: #636363;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+}/*# sourceMappingURL=HorizantalList.css.map */

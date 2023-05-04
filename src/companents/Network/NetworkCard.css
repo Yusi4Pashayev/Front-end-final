@@ -1,0 +1,43 @@
+.network_location {
+  width: 60%;
+}
+
+.network_question {
+  width: 38%;
+}
+
+.networkcard {
+  position: relative;
+  background-color: #fafafa;
+  border-radius: 15px;
+  padding: 3rem;
+}
+.networkcard .NetworkCard-img {
+  position: absolute;
+}
+.networkcard .network_location-img {
+  bottom: 0;
+  right: 0;
+}
+.networkcard .network_question-img {
+  right: 0;
+  top: 0;
+}
+.networkcard h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 140%;
+  color: #ff6400;
+}
+.networkcard .network_location-title {
+  padding-right: 70%;
+}
+.networkcard .network_question-title {
+  padding-right: 2rem;
+}
+.networkcard p {
+  color: #323232;
+  font-size: 1rem;
+  padding-right: 20%;
+  margin-bottom: 3rem;
+}/*# sourceMappingURL=NetworkCard.css.map */

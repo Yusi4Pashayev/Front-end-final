@@ -1,0 +1,80 @@
+.cards__ucard {
+  text-align: start;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards__ucard > h1 {
+  text-align: start;
+  font-weight: 700;
+  color: #ff6400;
+  margin-bottom: 1rem;
+}
+.cards__ucard .ucard__area {
+  margin-bottom: 1rem;
+}
+.cards__ucard .ucard__area .ucard-box {
+  padding: 4rem;
+  background-color: #fafafa;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--img {
+  width: 30%;
+  margin: 2rem 0;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--img img {
+  width: 100%;
+  box-shadow: -20px 20px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content {
+  width: 62%;
+  padding: 20px 50px;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content .cards__box--contentbottom {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content .cards__box--contentbottom div {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content .cards__box--contentbottom .cartIcon {
+  font-size: 45px;
+  color: #ff6400;
+  text-align: center;
+  margin-right: 10px;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content .cards__box--contentbottom .HourglassIcon {
+  font-size: 45px;
+  color: #ff6400;
+  margin-right: 10px;
+}
+.cards__ucard .ucard__area .ucard-box .cards__box--content .cards__box--contentbottom .arrowRightLeft {
+  font-size: 45px;
+  color: #ff6400;
+  margin-right: 10px;
+}
+
+.cards__debet {
+  text-align: start;
+}
+.cards__debet > h1 {
+  text-align: start;
+  font-weight: 700;
+  color: #ff6400;
+}/*# sourceMappingURL=Cards.css.map */

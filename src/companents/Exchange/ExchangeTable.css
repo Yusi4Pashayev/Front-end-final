@@ -1,0 +1,28 @@
+.exchange__table {
+  width: 30%;
+}
+.exchange__table table {
+  width: 80%;
+}
+.exchange__table table caption {
+  text-align: start;
+}
+.exchange__table table caption h1 {
+  color: #000000;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.exchange__table table caption p {
+  color: #d6d9db;
+  margin-bottom: 2rem;
+  font-size: 13px;
+}
+.exchange__table table thead th {
+  color: #d6d9db;
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d6d9db;
+  text-align: start;
+  width: 33%;
+}/*# sourceMappingURL=ExchangeTable.css.map */

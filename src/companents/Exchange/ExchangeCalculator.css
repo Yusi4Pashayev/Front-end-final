@@ -1,0 +1,97 @@
+.exchange_calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+}
+.exchange_calculator .calc--text {
+  width: 25%;
+  text-align: start;
+}
+.exchange_calculator .calc--text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.exchange_calculator .calc--text p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #d6d9db;
+  margin-bottom: 10px;
+}
+.exchange_calculator .calc--inputs {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exchange_calculator .calc--inputs .input_value {
+  width: 45%;
+  position: relative;
+}
+.exchange_calculator .calc--inputs .input_value input {
+  width: 100%;
+  outline: transparent;
+  padding: 20px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #d6d9db;
+}
+.exchange_calculator .calc--inputs .input_value select {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 8px 40px 8px 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.exchange_calculator .calc--inputs .input_value select option {
+  padding: 10px 0;
+}
+.exchange_calculator .calc--inputs .output_value {
+  width: 45%;
+  position: relative;
+}
+.exchange_calculator .calc--inputs .output_value input {
+  width: 100%;
+  outline: transparent;
+  padding: 20px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #d6d9db;
+}
+.exchange_calculator .calc--inputs .output_value select {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 8px 40px 8px 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.exchange_calculator .calc--inputs .output_value select option {
+  padding: 10px 0;
+}/*# sourceMappingURL=ExchangeCalculator.css.map */

@@ -1,0 +1,70 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+.head__title-cart {
+  width: 100%;
+  background-color: $bg_card_color;
+  border-radius: 15px;
+  padding: 1rem 4rem;
+
+  margin-bottom: 1rem;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    .title-cart-img{
+    width: 20%;
+    }
+    .title-cart-name{
+    width: 40%;
+    }
+    .title-cart-count{
+        width: 10%;
+    }
+    .title-cart-button{
+    width: 15%;
+    }
+  }
+}
+.chart__element {
+  width: 100%;
+  background-color: $bg_card_color;
+  border-radius: 15px;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .chart__element--img {
+    width: 20%;
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+  .chart_title {
+    width: 40%;
+  }
+  .chart__element--count {
+    width: 10%;
+  }
+  .delete_chart {
+    width: 15%;
+    button {
+      padding: 14px 24px;
+      background-color: red;
+      border-radius: 10px;
+      color: #fafafa;
+      border: 1px solid red;
+      cursor: pointer;
+    }
+  }
+}

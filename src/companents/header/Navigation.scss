@@ -1,0 +1,92 @@
+$font_color1: #323232;
+$font_color2: #000000;
+$font_color3: #ff6400;
+$item_color: #ff7a00;
+$bg_card_color: #fafafa;
+$box_shadow: 0 2px 14px -8px rgba(0, 0, 0, 0.3);
+$font_size_Large: 20px;
+$font_size_Medium: 16px;
+$font_size_Small: 13px;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.link{
+  text-decoration: none;
+}
+.container {
+  padding: 1rem 18vw;
+}
+.nShow {
+  display: none;
+}
+nav {
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu_nav {
+      width: 65%;
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+          font-size: $font_size_Large;
+          font-weight: 500;
+          cursor: pointer;
+          a{
+            color: #000000;
+          }
+        }
+      }
+    }
+    .menu_tools {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 25%;
+      .call {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        .phone {
+          color: $font_color3;
+        }
+        a {
+          text-decoration: none;
+          color: #000000;
+          font-size: $font_size_Medium;
+          font-weight: 500;
+          margin-left: 5px;
+        }
+      }
+      .internet_banking {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 12px 22px;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        cursor: pointer;
+
+        .arrow {
+          color: $font_color3;
+          font-size: 22px;
+        }
+        span {
+          color: #000000;
+          font-size: $font_size_Medium;
+          font-weight: 500;
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+}
